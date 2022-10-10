@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  background-image: url("https://cdn.wallpapersafari.com/66/44/zldaLS.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  min-height: 100vh;
+}
+#box {
+  background: linear-gradient(#41ce7f, #69e5e5);
+  background-image: url("https://i.pinimg.com/564x/e1/42/63/e142639c354e02d4c062c37ec0666422.jpg");
+
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  justify-content: center;
+
+  width: 90vmin;
+  height: 90vmin;
+  background-size: 100%;
+  text-align: center;
+  border: 5px solid rgb(116, 76, 76);
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  grid-template-rows: repeat(18, 1fr);
+}
+.head {
+  background-color: rgb(232, 12, 82);
+  border: 0.25vmin solid white;
+  /* ... */
+  background: linear-gradient(rgb(240, 124, 124), rgb(228, 228, 129));
+  border: 2px solid rgb(34, 4, 34);
+  transform: scale(1.02);
+  border-radius: 9px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.food {
+  background: linear-gradient(rgb(255, 111, 111), #f6380d);
+  border-radius: 8px;
+  background: linear-gradient(red, purple);
+  border: 0.25vmin solid rgb(55, 55, 55);
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.snake {
+  border-radius: 12px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  background: linear-gradient(#43eca7, #0b523d);
+  border: 0.25vmin solid #f7e6ed;
+  border-radius: 12px;
+}
+#scoreBox {
+  position: absolute;
+  top: 9px;
+  right: 200px;
+  color: red;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "New Tegomin", serif;
+}
+
+#hightestScore {
+  position: absolute;
+  top: 59px;
+  right: 140px;
+  font-size: 39px;
+  font-weight: bold;
+  font-family: "New Tegomin", serif;
+}
+/* .snake_tail{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLNvAk_SuztXhKesscZFzViS_U1uvB0kDis7rt2JQ&s");
+} */
+
+#play_text {
+  margin-left: -250px;
+  margin-right: 100px;
+  font-size: 100px;
+  font-family: "New Tegomin", serif;
+  font-weight: 900;
+  color: rgb(55, 55, 55);
+  text-shadow: 2px 2px #b5dacf;
+}
